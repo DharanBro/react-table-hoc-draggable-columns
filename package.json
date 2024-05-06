@@ -54,7 +54,8 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
     "rollup-plugin-scss": "^1.0.1",
-    "rollup-plugin-url": "^1.4.0"
+    "rollup-plugin-url": "^1.4.0",
+    "node-sass": "^4.12.0"
   },
   "files": [
     "dist"
@@ -66,7 +67,7 @@
     "draggable",
     "draggable columns"
   ],
-  "dependencies": {
-    "node-sass": "^4.12.0"
+  "volta": {
+    "node": "8.17.0"
   }
 }
